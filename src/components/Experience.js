@@ -4,12 +4,12 @@ import JobList from "./JobList";
 class Experience extends React.Component {
   render() {
     return (
-      <section id="projects" className="py-20 bg-gray-900 text-white">
-        <div id="experience" className="py-20 bg-gray-900 text-gray-400">
+      <section id="experience" className="py-20 bg-gray-900 text-white">
+        <div id="experience">
           {/* Section Header */}
           <div className="text-center mb-10">
             <span className="text-3xl font-semibold text-primary">
-              / experience
+              Experiences
             </span>
           </div>
 

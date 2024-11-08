@@ -6,28 +6,83 @@ const JobList = () => {
   const jobs = [
     {
       id: "1",
-      title: "Frontend Developer",
-      company: "ABC Corp",
-      duration: "Jan 2020 - Present",
+      title: "IT Business Solutions",
+      company: "Samudera Indonesia (MKT)",
+      duration: "jul 2024 - Sept 2024",
       description:
-        "Developed and maintained user interfaces using React.js and Redux, improving user experience and app performance.",
-      technologies: ["React.js", "Redux", "JavaScript", "CSS"],
+        "I'm Freelancer to Developed and maintained Full Stack Development for Internal business necessary using Laravel and JavaScript, improving Query backend app performance also User Interface using Bootstrap Library.",
+      technologies: [
+        "Laravel",
+        "PHP",
+        "SQL",
+        "CSS/HTML/Bootstrap",
+        "JavaScript/ajax/jQuery",
+        "Github",
+      ],
       achievements: [
-        "Increased app performance by 20% through optimizations.",
-        "Collaborated with a cross-functional team of 5 developers.",
+        "Successfully Build dashboard operationals for Distribution Center part of WMS (Warehouse Management System).",
+        "Launching a Massive Automation with Pallet Scanner which is still running in Export centers until now",
+        "Collaborated with senior mentors profesional teams of 3 developers.",
       ],
     },
     {
       id: "2",
-      title: "Software Engineer",
-      company: "XYZ Ltd.",
-      duration: "Mar 2018 - Dec 2019",
+      title: "RnD Machine Learning Internship",
+      company: "PT.Denso Manufacturing Indonesia",
+      duration: "Jan 2024 - May 2024",
       description:
-        "Worked on back-end development using Node.js and Express, integrated with MongoDB for data storage.",
-      technologies: ["Node.js", "Express", "MongoDB", "JavaScript"],
+        "Worked on Machine Learning Reasearch n development for Internal Company necessary, which is to accelerated automation proccess classifying audio in manufacturing defects ",
+      technologies: [
+        "Python Library(Scikit Learn, NumPy, Pandas)",
+        "TensorFlow",
+        "Hardware Intel Nuc High performance",
+      ],
       achievements: [
-        "Built RESTful APIs that serve 1000+ active users.",
-        "Reduced server response time by 15% through code refactoring.",
+        "Built ML algorithm models to detect and classify binary sounds with > 90% accuracy",
+        "My team Winning 1st as Top Innovation Products using new technology",
+      ],
+    },
+    {
+      id: "3",
+      title: "Backend Developer Junior",
+      company: "PT. Sinergi merah putih",
+      duration: "Jun 2023 - Jan 2024",
+      description:
+        "Junior freelancer Part of backend teams whice are developed Human Resource System Massive web application",
+      technologies: [
+        "ExpressJs/NodeJs",
+        "JavaScript",
+        "PostgreSQL",
+        "Insomnia (Rest API)",
+        "Github",
+        "Sequelize ORM",
+      ],
+      achievements: [
+        "Built complex database from scratch about > 20 Tables",
+        "about 75% backend features successfuly integrate with frontend app",
+      ],
+    },
+    {
+      id: "4",
+      title: "Machine Learning Student",
+      company: "Bangkit Academy 2023",
+      duration: "Aug 2023 - Jan 2024",
+      description:
+        "Part of backend teams whice are developed Human Resource System Massive web application",
+      technologies: [
+        "TensorFlow",
+        "Python + Google Colab",
+        "PHP Laravel",
+        "Docker Container",
+        "Google Cloud Platform",
+        "Flask",
+        "MySQL",
+        "Postman",
+        "YoLo + OpenCV Computer Vision",
+      ],
+      achievements: [
+        "Built complex database from scratch about > 40 Tables",
+        "about 75% backend features successfuly integrate with frontend app",
       ],
     },
     // Add more job entries here as needed
